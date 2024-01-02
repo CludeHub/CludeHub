@@ -215,8 +215,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	MainTitle.AnchorPoint = Vector2.new(0.5, 0.5)
 	MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	MainTitle.BackgroundTransparency = 1.000
-	MainTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	MainTitle.BorderSizePixel = 0
+	MainTitle.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	MainTitle.BorderSizePixel = 2
 	MainTitle.Position = UDim2.new(0.500000238, 0, 0.320754796, 0)
 	MainTitle.Size = UDim2.new(0.800000072, 0, 0.404833019, 0)
 	MainTitle.ZIndex = 5
@@ -236,8 +236,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	HidTitle.AnchorPoint = Vector2.new(0.5, 0.5)
 	HidTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	HidTitle.BackgroundTransparency = 1.000
-	HidTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	HidTitle.BorderSizePixel = 0
+	HidTitle.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	HidTitle.BorderSizePixel = 2
 	HidTitle.Position = UDim2.new(0.5, 0, 0.706791997, 0)
 	HidTitle.Size = UDim2.new(0.800000072, 0, 0.168143764, 0)
 	HidTitle.ZIndex = 5
@@ -306,8 +306,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	TabButtons.AnchorPoint = Vector2.new(0.5, 0.5)
 	TabButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabButtons.BackgroundTransparency = 1.000
-	TabButtons.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	TabButtons.BorderSizePixel = 0
+	TabButtons.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	TabButtons.BorderSizePixel = 2
 	TabButtons.ClipsDescendants = false
 	TabButtons.Position = UDim2.new(0.5, 0, 0.5, 0)
 	TabButtons.Size = UDim2.new(0.980000019, 0, 0.949999988, 0)
@@ -335,8 +335,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Frame
 	TopBar.BackgroundColor3 = Color3.fromRGB(54, 57, 62)
-	TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	TopBar.BorderSizePixel = 0
+	TopBar.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	TopBar.BorderSizePixel = 1
 	TopBar.Position = UDim2.new(0.975000024, 0, 0.0149999997, 0)
 	TopBar.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	TopBar.SizeConstraint = Enum.SizeConstraint.RelativeYY
@@ -353,8 +353,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	TopBarButton.AnchorPoint = Vector2.new(0.5, 0.5)
 	TopBarButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TopBarButton.BackgroundTransparency = 1.000
-	TopBarButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	TopBarButton.BorderSizePixel = 0
+	TopBarButton.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	TopBarButton.BorderSizePixel = 1
 	TopBarButton.Position = UDim2.new(0.5, 0, 0.5, 0)
 	TopBarButton.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
 	TopBarButton.Image = "rbxassetid://3926305904"
@@ -503,8 +503,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 		TabButton.Name = "TabButton"
 		TabButton.Parent = TabButtons
 		TabButton.BackgroundColor3 = Color3.fromRGB(46, 49, 54)
-		TabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-		TabButton.BorderSizePixel = 0
+		TabButton.BorderColor3 = Color3.fromRGB(0, 0, 255)
+		TabButton.BorderSizePixel = 1
 		TabButton.Size = UDim2.new(0.980000019, 0, 0.5, 0)
 		TabButton.ZIndex = 5
 
@@ -563,8 +563,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 		TabFrame.Parent = Frame
 		TabFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 		TabFrame.BackgroundColor3 = Color3.fromRGB(30, 33, 36)
-		TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-		TabFrame.BorderSizePixel = 0
+		TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 255)
+		TabFrame.BorderSizePixel = 1
 		TabFrame.ClipsDescendants = true
 		TabFrame.Position = UDim2.new(0.665320456, 0, 0.501092017, 0)
 		TabFrame.Size = UDim2.new(0.637839735, 0, 0.953215957, 0)
@@ -638,8 +638,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			Button.Name = "Button"
 			Button.Parent = Items
 			Button.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-			Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			Button.BorderSizePixel = 0
+			Button.BorderColor3 = Color3.fromRGB(0, 0, 255)
+			Button.BorderSizePixel = 1
 			Button.Size = UDim2.new(0.925000012, 0, 0.5, 0)
 			Button.ZIndex = 7
 
@@ -654,8 +654,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			TextLabel.BackgroundTransparency = 1.000
-			TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			TextLabel.BorderSizePixel = 0
+			TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 255)
+			TextLabel.BorderSizePixel = 1
 			TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
 			TextLabel.Size = UDim2.new(1, 0, 0.550000012, 0)
 			TextLabel.ZIndex = 8
@@ -702,8 +702,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			Label.Name = "Label"
 			Label.Parent = Items
 			Label.BackgroundColor3 = Color3.fromRGB(25, 27, 29)
-			Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			Label.BorderSizePixel = 0
+			Label.BorderColor3 = Color3.fromRGB(0, 0, 255)
+			Label.BorderSizePixel = 1
 			Label.Size = UDim2.new(0.925000012, 0, 0.5, 0)
 			Label.ZIndex = 7
 
@@ -753,8 +753,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Items
 			Toggle.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-			Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			Toggle.BorderSizePixel = 0
+			Toggle.BorderColor3 = Color3.fromRGB(0, 0, 255)
+			Toggle.BorderSizePixel = 1
 			Toggle.Size = UDim2.new(0.925000012, 0, 0.5, 0)
 			Toggle.ZIndex = 7
 
@@ -788,8 +788,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			ToggleOS.Parent = Toggle
 			ToggleOS.AnchorPoint = Vector2.new(0.5, 0.5)
 			ToggleOS.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-			ToggleOS.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			ToggleOS.BorderSizePixel = 0
+			ToggleOS.BorderColor3 = Color3.fromRGB(0, 0, 255)
+			ToggleOS.BorderSizePixel = 1
 			ToggleOS.ClipsDescendants = true
 			ToggleOS.Position = UDim2.new(0.949999988, 0, 0.5, 0)
 			ToggleOS.Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
