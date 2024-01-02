@@ -366,8 +366,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	TopBarMainFrame.Parent = Frame
 	TopBarMainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TopBarMainFrame.BackgroundTransparency = 1.000
-	TopBarMainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	TopBarMainFrame.BorderSizePixel = 0
+	TopBarMainFrame.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	TopBarMainFrame.BorderSizePixel = 2
 	TopBarMainFrame.ClipsDescendants = true
 	TopBarMainFrame.Size = UDim2.new(1, 0, 1, 0)
 	TopBarMainFrame.ZIndex = 15
