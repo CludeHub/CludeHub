@@ -285,8 +285,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 
 	Frame_2.Parent = Frame
 	Frame_2.BackgroundColor3 = Color3.fromRGB(30, 33, 36)
-	Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Frame_2.BorderSizePixel = 0
+	Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	Frame_2.BorderSizePixel = 2
 	Frame_2.ClipsDescendants = true
 	Frame_2.Position = UDim2.new(0.0155140487, 0, 0.268712759, 0)
 	Frame_2.Size = UDim2.new(0.307198912, 0, 0.708987296, 0)
