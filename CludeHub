@@ -189,8 +189,8 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	Frame.Active = true
 	Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 	Frame.BackgroundColor3 = Color3.fromRGB(41, 43, 47)
-	Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BorderSizePixel = 0
+	Frame.BorderColor3 = Color3.fromRGB(0, 0, 255)
+	Frame.BorderSizePixel = 2
 	Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Frame.Size = UDim2.new(0,0,0,0)
 	Frame.ZIndex = 3
@@ -202,7 +202,7 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 	Header.Parent = Frame
 	Header.BackgroundColor3 = Color3.fromRGB(30, 33, 36)
 	Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Header.BorderSizePixel = 0
+	Header.BorderSizePixel = 2
 	Header.Position = UDim2.new(0.0169122536, 0, 0.0244840626, 0)
 	Header.Size = UDim2.new(0.305800885, 0, 0.203863204, 0)
 	Header.ZIndex = 4
