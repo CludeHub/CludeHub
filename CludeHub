@@ -752,7 +752,7 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Items
-			Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+			Toggle.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 			Toggle.BorderColor3 = Color3.fromRGB(0, 0, 255)
 			Toggle.BorderSizePixel = 1
 			Toggle.Size = UDim2.new(0.925000012, 0, 0.5, 0)
@@ -787,7 +787,7 @@ function Module:Create(WindowName:string,ScriptName:string,UserRoleName:string,C
 			ToggleOS.Name = "ToggleOS"
 			ToggleOS.Parent = Toggle
 			ToggleOS.AnchorPoint = Vector2.new(0.5, 0.5)
-			ToggleOS.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+			ToggleOS.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 			ToggleOS.BorderColor3 = Color3.fromRGB(0, 0, 255)
 			ToggleOS.BorderSizePixel = 1
 			ToggleOS.ClipsDescendants = true
